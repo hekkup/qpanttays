@@ -68,13 +68,13 @@ Page {
                       onClicked: {
                           //console.log("clicked on deck "+name+", index = "+index)
                           deckListView.currentIndex = index
-                          selectedCardDeckName = name
-                          selectedCardDeckIndex = index
+                          loadedMainPage.selectedCardDeckName = name
+                          loadedMainPage.selectedCardDeckIndex = index
                       }
                       onDoubleClicked: {
                           //console.log("double clicked on deck "+name+", index = "+index)
-                          selectedCardDeckName = name
-                          selectedCardDeckIndex = index
+                          loadedMainPage.selectedCardDeckName = name
+                          loadedMainPage.selectedCardDeckIndex = index
                           startQuerying()
                       }
                   }

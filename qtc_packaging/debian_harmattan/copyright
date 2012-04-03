@@ -1,0 +1,35 @@
+This package was debianized by H. Pitkala <hpitkala@hotmail> on
+Sat, 11 Feb 2012 01:04:08 +0200.
+
+Upstream Author(s):
+
+	H. Pitkala <hpitkala@hotmail.com>
+
+Copyright:
+
+	H. Pitkala 2012
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+	it under the terms of the Creative Commons Attribution 3.0 Unported
+	License.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	Creative Commons Attribution 3.0 Unported License for more details.
+
+	You should have received a copy of the Creative Commons Attribution 3.0
+	Unported License along with this package.
+
+The complete text of the Creative Commons Attribution 3.0 Unported License
+can be found at http://creativecommons.org/licenses/by/3.0/
+
+The Debian packaging is done by H. Pitkala <hpitkala@hotmail.com> and
+is licensed under the Creative Commons Attribution 3.0 Unported License,
+see above.
+
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.

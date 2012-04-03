@@ -1,0 +1,60 @@
+
+QPanttays is a simple flashcard application for studying vocabularies
+or any other material.
+
+The target platform at the moment is Nokia N9 smartphone, but the
+application should run with minimal modifications on any other
+platform supporting Qt/QML. Actually the Qt Creator handles
+at least Symbian and Maemo smartphones, plus the normal desktop
+target.
+
+
+== Installation ==
+
+1. Open qpanttays.pro with Qt Creator
+
+2. Build for your target
+
+3. At your handheld, enter the SDK mode. For that, you might
+  need to install some developer mode packages.
+
+3. Run the application. That will install the app into the phone.
+
+
+== Installing Card Decks ==
+
+1. Download ready-made flashcard files or write your own.
+
+2. Deck file format is CSV (Comma Separated Values).
+  Each line in the file shall be in this format:
+"fact1","fact2","fact3"
+(note the double quotes)
+
+  Fact count can be anything, however text size change for
+  three facts is supported at the moment.
+
+  You can use any utility or other flashcard program to export
+  decks in CSV format. Quite many flashcard apps support
+  this. Tip: spreadsheets are handy adding/removing columns.
+
+3. Connect to the smartphone/handheld with data cable or
+  other means. Copy the card deck file into one of
+  these locations:
+  ~/.qpanttays
+  ~/MyDocs/.qpanttays
+  (Note: ~ means the home directory of the normal user.)
+  Other mechanisms such as an import wizard has been planned.
+
+
+== Development ==
+
+Development is currently done at
+/https://github.com/hekkup/qpanttays
+
+Welcome to join.
+
+
+== Other Info ==
+
+Contact: H. Pitkala <hpitkala@hotmail.com>
+
